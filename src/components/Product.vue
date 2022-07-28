@@ -2,14 +2,14 @@
 <template>
     <v-container class="my-15">
         <v-row justify="center">
-            <v-col lg="15" class="text-center mb-25" >
+            <v-col lg="9" class="text-center mb-25" >
                 <v-subheader class="text-h4 justify-center">Project</v-subheader>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta omnis nulla, voluptatem possimus qui ipsam?</p>
             </v-col>
 
             <v-col lg="4" v-for="project in 3" :key="project">
                             <v-card
-                    class="mx-auto my-12"
+                    class="mx-auto my-15"
                     max-width="374"
             >
                     <v-img
@@ -21,7 +21,7 @@
                     <v-card-text>
                     <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
                     </v-card-text>
-                    <v-divider class="mx-4"></v-divider>
+                    <v-divider class="mb-3"></v-divider>
                     <v-btn color="success" rounded>View Details</v-btn>
                     <v-spacer />
                     <v-rating

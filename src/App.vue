@@ -4,8 +4,10 @@
     <v-main>
       <HeroComponent />
       <Aboutus />
-      <Portfolio />
       <Product /> 
+      <Gallery />
+      <Contact />
+      <Footer />
     </v-main>
   </v-app>
 </template>
@@ -14,8 +16,10 @@
 import Header from "@/components/Header";
 import HeroComponent from "./components/HeroComponent.vue";
 import Aboutus from "./components/Aboutus.vue";
-import Portfolio from "./components/Portfolio.vue";
 import Product from "./components/Product.vue";
+import Gallery from "./components/Gallery.vue";
+import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: 'App',
@@ -23,8 +27,10 @@ export default {
     Header,
     HeroComponent,
     Aboutus,
-    Portfolio,
     Product,
+    Gallery,
+    Contact,
+    Footer
 },
 
   data(){

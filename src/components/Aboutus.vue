@@ -5,7 +5,7 @@
             <v-col >
                 <img class="ml-15"  src="./../assets/about-us.png" alt="">
             </v-col>
-            <div class="aboutus-main pt-16">
+            <div class="aboutus-main pt-16 ">
             <v-subheader class="text-h4" >About Us</v-subheader>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, laborum beatae, atque animi doloremque similique esse fugiat, explicabo consectetur saepe dolorem voluptatibus non natus at voluptatum reiciendis est possimus voluptate. 
             </p>

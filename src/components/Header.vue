@@ -46,7 +46,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
     .v-toolbar__title {
         font-size: 32px;
         color: #4caf50;
